@@ -16,15 +16,7 @@ mongoose
     .catch((err) => {
         console.log('error')
     });
-// Create a schema for the Person collection
-/*const personSchema = new mongoose.Schema({
-  name: { type: String, required: true },
-  age: Number,
-  favoriteFoods: [String]
-});*/
 
-// Create a model for the Person collection
-//const Person = mongoose.model('Person', personSchema);
 
 // Create and save a record of a model
 const createPerson = () => {
